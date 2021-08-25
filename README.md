@@ -4,15 +4,15 @@ This website is deployed using vercel: https://seb-holidays.vercel.app/
 
 This project is a holiday-viewing website. It is based on Airbnb. The project uses the React library with the Next.js framework. Tailwind CSS is used to style the application. Mapbox is used to display a map on the Search page. The JIT compiler is used to help performance when using the styling. The application uses data created and stored on jsonkeeper.com for most of the cards on the home page, as well as the stays displayed on the search page.
 
-The website is responsive, adapting the page content to various screen sizes using TailwindCSS.
+• The website is responsive, adapting the page content to various screen sizes using TailwindCSS.
 
-The header component contains the website logo, a search bar and three logo-buttons.
+• The header component contains the website logo, a search bar and three logo-buttons.
 
-Under the header is a banner which contains a background image and a button.
+• Under the header is a banner which contains a background image and a button.
 
-Below the banner are several card options of different sizes.
+• Below the banner are several card options of different sizes.
 
-At the bottom of the page is a generic page footer.
+• At the bottom of the page is a generic page footer.
 
 When something is typed into the search bar, the header expands to display a calendar which allows the user to pick a start and end date. The number of guests can also be changed. There are two buttons: Cancel and Search. The Cancel button clears the search bar, in turn hiding the expansion and returning the header back to normal. The search button will perform a search, which will route the website to a new page: the Search results page.
 
