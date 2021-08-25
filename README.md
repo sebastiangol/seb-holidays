@@ -4,6 +4,8 @@ This website is deployed using vercel: https://seb-holidays.vercel.app/
 
 This project is a holiday-viewing website. It is based on Airbnb. The project uses the React library with the Next.js framework. Tailwind CSS is used to style the application. Mapbox is used to display a map on the Search page. The JIT compiler is used to help performance when using the styling. The application uses data created and stored on jsonkeeper.com for most of the cards on the home page, as well as the stays displayed on the search page.
 
+The website is responsive, adapting the page content to various screen sizes using TailwindCSS.
+
 The header component contains the website logo, a search bar and three logo-buttons.
 
 Under the header is a banner which contains a background image and a button.
